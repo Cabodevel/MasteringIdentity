@@ -18,7 +18,6 @@ namespace WebApp_UnderTheHood.Pages.Account
 
         public async Task<IActionResult> OnPost()
         {
-
             if (!ModelState.IsValid)
             {
                 return Page();
